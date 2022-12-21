@@ -2,7 +2,7 @@
 
 This project is a personal portfolio website used to showcase projects and share relevant experience. It is built using [ React ](https://github.com/facebook/create-react-app).
 
-![cat](https://i.imgur.com/hCyCbzT.gif)
+![pomodoroGif](https://github.com/0xBN/personal-site-v2/blob/main/shared/markdownGifs/pomodoro.gif?raw=true)
 
 ## Available Scripts
 
