@@ -9,9 +9,11 @@ export const Hero = ({ darkMode }) => {
     <div className='flex min-h-fullScreenMinHeight flex-col justify-evenly px-8 md:min-h-screen md:py-24'>
       <div className='relative flex flex-col-reverse gap-6 text-3xl font-semibold'>
         <h2 className='z-10  text-7xl font-bold md:text-9xl'>Brian N.</h2>
+
         <p className='text-4xl text-primaryLight dark:text-primaryDark '>
           Hello there!, I'm-
         </p>
+
         <div className='absolute -bottom-16 left-40 h-40 w-40 rotate-45  animate-spin-slow md:left-72 md:h-56 md:w-56'>
           <DotPatternSvg dotColor={darkMode ? '#f7c1ea' : '#9E0000'} />
         </div>

@@ -3,8 +3,6 @@ import { SvgAndLabel } from 'components';
 import { techIcons, techWordUpperCase, techWebsites } from 'data';
 
 export const TechnologyItem = ({ item }) => {
-  console.log(techIcons[item]);
-
   if (!item) return;
 
   const formatTechnology = (word) => {

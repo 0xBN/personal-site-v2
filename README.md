@@ -1,8 +1,62 @@
 # Personal Portfolio Website
 
-This project is a personal portfolio website used to showcase projects and share relevant experience. It is built using [ React ](https://github.com/facebook/create-react-app).
+This project is a personal portfolio website used to showcase projects and share relevant experience. 
 
-![pomodoroGif](https://github.com/0xBN/personal-site-v2/blob/main/shared/markdownGifs/pomodoro.gif?raw=true)
+[![Mobile Gif](https://i.imgur.com/dmuO8TZ.gif)](https://i.imgur.com/dmuO8TZ.gif)
+![Desktop static](https://i.imgur.com/hl8ZE66.png)
+![Mobile static](https://i.imgur.com/b6vD8SZ.png)
+
+
+
+<!-- <img src="https://i.imgur.com/dmuO8TZ.gif" alt="mobile gif" width="200"/>
+<img src="https://i.imgur.com/hl8ZE66.png" alt="desktop static" width="400"/>
+<img src="https://i.imgur.com/b6vD8SZ.png" alt="mobile static" width="200"/> -->
+
+
+
+
+---------------------
+---------------------
+
+## Tech Stack
+- [ React ](https://github.com/facebook/create-react-app): Frontend
+- [ Tailwind CSS](https://tailwindcss.com/): Styling
+- [Github](https://github.com/): Deployment
+  
+---------------------
+---------------------
+
+## How to Use
+
+| Directory | Edits |
+| ----------- | ----------- |
+| './src/pages' | section details |
+| './src/data/userData.js' | contact details, project cards, technology icons, and websites  |
+|
+
+---------------------
+---------------------
+## Notable Features
+** Desktop(D) Only and Mobile(M) Only
+- Responsive Single Page App
+- Reusable components custom made
+- Project card carousel is custom made (no template)
+- Sticky section header
+- M: Animated hamburger button and menu
+- M: Dark theme toggle fixed to the top right
+- M: Minimalistic animation patterns and arrows
+- D: Smooth scroll to section
+- Technology buttons for project card links to official site or documentation
+
+---------------------
+---------------------
+
+## Icons
+- https://devicon.dev/
+- https://heroicons.dev/
+
+----------------------
+---------------------
 
 ## Available Scripts
 
@@ -13,8 +67,6 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### `npm run build`
 
@@ -24,44 +76,9 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+How to deploy documentation: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

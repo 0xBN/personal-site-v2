@@ -22,6 +22,7 @@ export const Contact = () => {
         label={user.linkedin.split('https://www.')[1]}
         link={user.linkedin}
         svg={<LinkedinSvg />}
+        newTab={true}
       />
 
       <div className='absolute bottom-24 left-48 z-0 h-40 w-40 animate-spin-slow md:bottom-40 md:left-96 md:h-56 md:w-56'>

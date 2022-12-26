@@ -28,11 +28,11 @@ export const NavBar = ({ toggleTheme, darkMode, isWindowSmall }) => {
       {/* Hamburger Menu */}
       <button
         onClick={toggleMenu}
-        className='text-transparent md:hidden'
+        className='px-4 text-transparent md:hidden'
         id='hamburger-button'
       >
         menu
-        <div className='absolute top-10 -mt-1 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500 after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500'></div>
+        <div className='absolute top-10 -mt-1 h-1 w-8 rounded bg-black transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-black before:transition-all before:duration-500 after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-black after:transition-all after:duration-500 dark:bg-white dark:before:bg-white dark:after:bg-white'></div>
       </button>
 
       {/* Center Name */}
@@ -42,7 +42,7 @@ export const NavBar = ({ toggleTheme, darkMode, isWindowSmall }) => {
       </div>
       {/* Mobile Above */}
 
-      <ProfilePicture />
+      <ProfilePicture darkMode={darkMode} />
       <Menu
         showMenu={showMenu}
         setShowMenu={setShowMenu}

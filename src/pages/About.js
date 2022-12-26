@@ -1,9 +1,16 @@
-import { EmphasizedWord } from 'components';
+import { EmphasizedWord, ProfilePicture } from 'components';
 import React from 'react';
 
-export const About = () => {
+export const About = ({ darkMode }) => {
   return (
-    <div className='text-md p-6 md:flex md:flex-col md:justify-center md:text-3xl'>
+    <div className='text-md py-4 px-6 md:flex md:flex-col md:justify-center md:text-3xl'>
+      <div className='mb-4 grid w-full place-content-center md:hidden'>
+        <ProfilePicture
+          darkMode={darkMode}
+          customDisplay='block w-28 p-0 m-0'
+          customRounded='rounded-md'
+        />
+      </div>
       <p>I am a fullstack developer.</p>
       <br />
       <p>
