@@ -2,16 +2,16 @@
 
 This project is a personal portfolio website used to showcase projects and share relevant experience. 
 
-![Mobile Gif](https://i.imgur.com/dmuO8TZ.gif|width=100px)
+<!-- ![Mobile Gif](https://i.imgur.com/dmuO8TZ.gif|width=100px)
 ![Desktop static](https://i.imgur.com/hl8ZE66.png)
-![Mobile static](https://i.imgur.com/b6vD8SZ.png)
+![Mobile static](https://i.imgur.com/b6vD8SZ.png) -->
 
 
 
-<!-- <img src="https://i.imgur.com/dmuO8TZ.gif" alt="mobile gif" width="200"/>
-<img src="https://i.imgur.com/hl8ZE66.png" alt="desktop static" width="400"/>
-<img src="https://i.imgur.com/b6vD8SZ.png" alt="mobile static" width="200"/> -->
-
+<img src="https://i.imgur.com/dmuO8TZ.gif" width="100" />
+<!-- <img src="https://i.imgur.com/hl8ZE66.png" alt="desktop static" width="400"/>
+<img src="https://i.imgur.com/b6vD8SZ.png" alt="mobile static" width="200"/>
+ -->
 
 
 
