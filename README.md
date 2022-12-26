@@ -9,7 +9,7 @@ This project is a personal portfolio website used to showcase projects and share
 
 | Mobile | Desktop |
 | ----------- | ----------- |
-| <img src="https://i.imgur.com/8v3okP7.gif" width="250px"  /> | <img src="https://i.imgur.com/rXMB0Y7.png" width="250px" /> |
+| <img src="https://i.imgur.com/rXMB0Y7.png" width="250px"/> | <img src="https://i.imgur.com/8v3okP7.gif" width="250px"/> |
 
 
 <!-- <img src="https://i.imgur.com/dmuO8TZ.gif" width="100" /> -->
