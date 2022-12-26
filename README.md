@@ -7,10 +7,14 @@ This project is a personal portfolio website used to showcase projects and share
 ![Mobile static](https://i.imgur.com/b6vD8SZ.png) -->
 
 
+| Mobile | Desktop |
+| ----------- | ----------- |
+| <img src="https://i.imgur.com/8v3okP7.gif" width="250px"  /> | <img src="https://i.imgur.com/rXMB0Y7.png" width="250px" /> |
 
-<img src="https://i.imgur.com/dmuO8TZ.gif" width="100" />
-<!-- <img src="https://i.imgur.com/hl8ZE66.png" alt="desktop static" width="400"/>
-<img src="https://i.imgur.com/b6vD8SZ.png" alt="mobile static" width="200"/>
+
+<!-- <img src="https://i.imgur.com/dmuO8TZ.gif" width="100" /> -->
+<!-- <img src="https://i.imgur.com/hl8ZE66.png" width="400"/>
+<img src="https://i.imgur.com/b6vD8SZ.png" width="200"/>
  -->
 
 
