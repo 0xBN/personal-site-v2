@@ -30,7 +30,7 @@ export const projects = [
   {
     id: 1,
     name: `Where's Waldo?`,
-    images: [img1, img2, img3],
+    images: ['https://i.imgur.com/8v3okP7.gif', img1, img2, img3],
     technologies: [
       'firebase',
       'react',

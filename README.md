@@ -2,7 +2,7 @@
 
 This project is a personal portfolio website used to showcase projects and share relevant experience. 
 
-[![Mobile Gif](https://i.imgur.com/dmuO8TZ.gif)](https://i.imgur.com/dmuO8TZ.gif)
+![Mobile Gif](https://i.imgur.com/dmuO8TZ.gif|width=100px)
 ![Desktop static](https://i.imgur.com/hl8ZE66.png)
 ![Mobile static](https://i.imgur.com/b6vD8SZ.png)
 
