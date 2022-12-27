@@ -2,10 +2,14 @@ import React from 'react';
 import { Section } from 'components';
 import { About, Projects, Skills, Contact, Hero } from 'pages';
 
-export const Main = ({ darkMode }) => {
+export const Main = ({ darkMode, pageLoaded }) => {
   return (
     <main className='min-h-screen bg-white text-black dark:bg-neutral-900 dark:text-white'>
-      <Section id='hero' content={<Hero darkMode={darkMode} />} />
+      <Section
+        pageLoaded={pageLoaded}
+        id='hero'
+        content={<Hero darkMode={darkMode} pageLoaded={pageLoaded} />}
+      />
       <Section
         id='about'
         title='About Me'

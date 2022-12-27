@@ -5,6 +5,11 @@ function App() {
   const root = document.getElementById('root');
   const [isWindowSmall, setIsWindowSmall] = useState(null);
   const [darkMode, setDarkMode] = useState(Boolean(localStorage.darkTheme));
+  const [pageLoaded, setPageLoaded] = useState(false);
+
+  useEffect(() => {
+    setPageLoaded(true);
+  }, [pageLoaded]);
 
   const toggleTheme = () => {
     setDarkMode((prev) => {
@@ -47,10 +52,11 @@ function App() {
         darkMode={darkMode}
         toggleTheme={toggleTheme}
         isWindowSmall={isWindowSmall}
+        pageLoaded={pageLoaded}
       />
 
       <div className='md:col-span-full md:col-start-2 md:max-h-screen md:overflow-y-auto md:overflow-x-hidden'>
-        <Main darkMode={darkMode} />
+        <Main darkMode={darkMode} pageLoaded={pageLoaded} />
         <Footer />
       </div>
     </div>

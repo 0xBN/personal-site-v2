@@ -5,9 +5,7 @@ import { Menu, ThemeToggle, ProfilePicture } from 'components';
 export const NavBar = ({ toggleTheme, darkMode, isWindowSmall }) => {
   const [showMenu, setShowMenu] = useState(false);
 
-  useEffect(() => {
-    return () => {};
-  }, []);
+  useEffect(() => {}, []);
 
   const toggleMenu = () => {
     console.log('toggleMenu');
