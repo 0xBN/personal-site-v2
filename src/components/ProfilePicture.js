@@ -1,15 +1,17 @@
-import React from 'react';
-import darkBrian from '../shared/img/darkBrianV2.png';
-import lightBrian from '../shared/img/lightBrianV2.png';
+import { user } from 'data';
+import { scrollAnimation } from 'utils';
 
 export const ProfilePicture = ({ darkMode, customDisplay, customRounded }) => {
   let display = customDisplay ? customDisplay : 'hidden';
   let rounded = customRounded ? customRounded : null;
 
+  const navigateTop = () => scrollAnimation('#hero');
+
   return (
     <img
-      className={`${display} ${rounded}   md:block`}
-      src={darkMode ? darkBrian : lightBrian}
+      onClick={navigateTop}
+      className={`${display} ${rounded} hover:saturate-150 md:block md:cursor-pointer`}
+      src={darkMode ? user.profilePicDark : user.profilePicLight}
       alt=''
     />
   );

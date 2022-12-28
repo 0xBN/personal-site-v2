@@ -27,7 +27,6 @@ export const Contact = () => {
 
       <div className='absolute bottom-24 left-48 z-0 h-40 w-40 animate-spin-slow md:bottom-40 md:left-96 md:h-56 md:w-56'>
         <DotPatternSvg dotColor={`#888`} />
-        {/* <DotPatternSvg dotColor={darkMode ? '#888' : '#333'} /> */}
       </div>
     </div>
   );

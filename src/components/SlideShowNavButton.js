@@ -5,7 +5,7 @@ export const SlideShowNavButton = ({ handleSlideShowNav, direction }) => {
   return (
     <button
       data-next-slide
-      className='z-[5] h-12 w-6 rounded-sm bg-black/20 fill-white active:bg-black md:h-1/4 md:w-8  md:hover:bg-black/40 md:hover:fill-white'
+      className='z-[5] h-11 w-11 rounded-full bg-black/20 fill-white active:bg-black md:h-11 md:w-11  md:hover:bg-black/40 md:hover:fill-white'
       onClick={() => {
         handleSlideShowNav(direction);
       }}

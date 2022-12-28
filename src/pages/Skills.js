@@ -26,7 +26,6 @@ import {
 export const Skills = () => {
   return (
     <ul className='grid grid-cols-4 md:grid-cols-5 '>
-      {/* <ul className='mt-4 flex max-w-[1026px] flex-wrap justify-center md:justify-start md:p-4 '> */}
       <SkillCard label='Javascript' svg={<JavascriptSvg />} />
       <SkillCard label='Typescript' svg={<TypescriptSvg />} />
       <SkillCard label='HTML' svg={<HtmlSvg />} />

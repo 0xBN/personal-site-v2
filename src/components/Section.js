@@ -9,7 +9,7 @@ export const Section = ({ id, title, content, lastPage }) => {
         lastPage
           ? 'min-h-fullScreenLastPage md:min-h-fullScreenLastPageDesktop'
           : 'min-h-fullScreenMinHeight md:min-h-screen'
-      }  scroll-m-[74px]  md:scroll-m-0`}
+      }  scroll-m-[130px] md:scroll-m-[81px]`}
     >
       <>{title && <SectionTitle title={title} />}</>
       {content}

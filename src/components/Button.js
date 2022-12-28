@@ -1,11 +1,13 @@
 import React from 'react';
 import { SvgAndLabel } from 'components';
-import { GithubSvg } from 'svgs';
+import { scrollAnimation, noScrollAnimation } from 'utils';
 
-export const Button = ({ label, svg, link, newTab }) => {
+export const Button = ({ label, svg, link, newTab, smoothScroll }) => {
   const handleClick = () => {
     if (newTab) {
       window.open(link);
+    } else if (smoothScroll) {
+      smoothScroll ? scrollAnimation(link) : noScrollAnimation(link);
     } else {
       window.location.href = link;
     }

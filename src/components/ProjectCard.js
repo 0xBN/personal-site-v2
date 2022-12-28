@@ -1,11 +1,10 @@
-import React from 'react';
 import {
   Carousel,
   EmphasizedWord,
   SvgAndLabel,
   TechnologyList,
 } from 'components';
-import { ExternalLinkSvg, GithubSvg, ProjectSvg } from 'svgs';
+import { ProjectSvg } from 'svgs';
 import { CardLinkOut } from './CardLinkOut';
 
 export const ProjectCard = ({ project }) => {
@@ -14,9 +13,7 @@ export const ProjectCard = ({ project }) => {
       className='flex w-full flex-col gap-6 overflow-hidden rounded-xl bg-slate-200 p-2 text-xl shadow-md shadow-black/30
     dark:bg-slate-700 md:max-w-[400px] md:p-4'
     >
-      <div className='relative'>
-        <Carousel images={project.images} />
-      </div>
+      <Carousel images={project.images} />
 
       <div className='flex flex-col gap-2 p-2'>
         <h3 className='text-center text-4xl font-bold'>

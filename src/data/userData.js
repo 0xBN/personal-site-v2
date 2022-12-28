@@ -17,19 +17,59 @@ const {
   JestSvg,
 } = require('svgs');
 
+const darkBrian = require('../shared/img/darkBrianV2.png');
+const lightBrian = require('../shared/img/lightBrianV2.png');
+
 export const test = 'test123';
 
 export const user = {
+  first: 'Brian',
+  last: 'N.',
+  title: 'Software Engineer',
   github: 'https://www.github.com/0xBN',
   linkedin: 'https://www.linkedin.com/in/brianvbn',
   email: 'brianvbn@gmail.com',
   phone: '+1-312-715-8602',
+  resume:
+    'https://docs.google.com/document/d/1m7h-aZfQY0XD6neiBvEQkXJHwUIJjDuu/edit?usp=sharing&ouid=103781869510772888871&rtpof=true&sd=true',
+  profilePicLight: lightBrian,
+  profilePicDark: darkBrian,
+  hero: {
+    line1:
+      'Self-driven, quick-starter, passionate developer with a curious mind.',
+    line2: 'I enjoy solving complex and challenging real-world problems.',
+  },
+  about: {
+    line1: 'I am a fullstack developer.',
+    line2: `Growing up, I have always had an affinity for everything tech related. I
+    loved exploring software mods for my devices and building PCs for my
+    friends during my free time.`,
+    line3: `Today I am passionate about developing applications that solve
+    real-world problems impacting millions of users.`,
+    languages: ['Javascript(ES6+)', 'Typescript', 'HTML', 'CSS', 'Python'],
+    frontend: ['Tailwind CSS', 'React'],
+    backend: ['Node', 'MongoDB', 'Express', 'Firebase'],
+    otherTechnologies: [
+      'Redux',
+      'Jest',
+      'Webpack',
+      'NPM',
+      'Git',
+      'Github',
+      'Railway',
+      'Render',
+      'PassportJS',
+      'JSON Web Token',
+    ],
+  },
 };
 
 export const projects = [
   {
     id: 1,
     name: `Where's Waldo?`,
+    description: 'Game where the user finds objects on screen.',
+    challenges: `Tagged location of object same on different client window sizes, first experience using Firebase to write and save to docs for leaderboard tracking`,
     images: ['https://i.imgur.com/8v3okP7.gif', img1, img2, img3],
     technologies: [
       'firebase',
@@ -46,8 +86,7 @@ export const projects = [
       'python',
       'jest',
     ],
-    description: 'Game where the user finds objects on screen.',
-    challenges: `Tagged location of object same on different client window sizes, first experience using Firebase to write and save to docs for leaderboard tracking`,
+
     link: `https://0xbn.github.io/hidden-objects-game/`,
     code: `https://github.com/0xBN/hidden-objects-game`,
   },

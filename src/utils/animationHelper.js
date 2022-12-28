@@ -1,4 +1,4 @@
-let duration = 'duration-1000';
+let duration = 'duration-700';
 let transition = 'transition-all';
 let opacityStart = 'opacity-0';
 let opacityEnd = 'opacity-100';
@@ -59,3 +59,68 @@ export const slideDownAnimation = (condition, delayPosition) => {
     ? `${opacityStart} ${transition} ${delay} ${duration} -translate-y-10 ${ease}`
     : `${opacityEnd} ${transition} ${delay} ${duration} translate-y-0 ${ease}`;
 };
+
+export const scrollAnimation = (id) => {
+  // if (!smoothScrollTo) return;
+  let position = document.getElementById(id.split('#')[1]);
+  position.scrollIntoView({ behavior: 'smooth', block: 'start' });
+};
+
+export const noScrollAnimation = (link, newTab = false) => {
+  if (newTab) {
+    window.open(link);
+  } else {
+    window.location.href = link;
+  }
+};
+
+export const animateSectionOptionsIn = {
+  y: 0,
+  opacity: 1,
+  transition: {
+    type: 'spring',
+    duration: 1,
+    bounce: 0.3,
+  },
+};
+
+export const animateSectionOptionsOut = {
+  y: '10vh',
+  opacity: 0,
+};
+
+export const animateHeaderOptions = (i) => ({
+  opacity: 1,
+  x: 0,
+  ease: 'easeInOut',
+  transition: {
+    delay: i * 0.2,
+    duration: 3,
+    type: 'spring',
+    bounce: 0.25,
+  },
+});
+
+export const animateHeroButtonsOptions = (i) => ({
+  opacity: 1,
+  x: 0,
+  ease: 'easeInOut',
+  transition: {
+    delay: i * 0.2 + 1,
+    duration: 1,
+    type: 'spring',
+    bounce: 0.25,
+  },
+});
+
+export const animateHeroTextOptions = (i) => ({
+  opacity: 1,
+  y: 0,
+  ease: 'easeInOut',
+  transition: {
+    delay: i * 0.05 + 0.5,
+    duration: 1,
+    type: 'spring',
+    bounce: 0.25,
+  },
+});

@@ -1,5 +1,6 @@
 import { EmphasizedWord, ProfilePicture } from 'components';
 import React from 'react';
+import { user } from 'data';
 
 export const About = ({ darkMode, pageLoaded }) => {
   return (
@@ -11,32 +12,27 @@ export const About = ({ darkMode, pageLoaded }) => {
           customRounded='rounded-md'
         />
       </div>
-      <p>I am a fullstack developer.</p>
+      <p>{user.about.line1}</p>
       <br />
-      <p>
-        Growing up, I have always had an affinity for everything tech related. I
-        loved exploring software mods for my devices and building PCs for my
-        friends during my free time.
-      </p>
+      <p>{user.about.line2}</p>
       <br />
-      <p>
-        Today I am passionate about developing applications that solve
-        real-world problems impacting millions of users.
-      </p>
+      <p>{user.about.line3}</p>
       <br />
       <p className='py-2 md:py-4'>
         <EmphasizedWord word='Languages ' />
-        Javascript(ES6+), Typescript, HTML, CSS, Python
+        {user.about.languages.toString().replaceAll(',', ', ')}
       </p>
       <p className='py-2 md:py-4'>
-        <EmphasizedWord word='Frontend' /> Tailwind CSS, React
+        <EmphasizedWord word='Frontend ' />
+        {user.about.frontend.toString().replaceAll(',', ', ')}
       </p>
       <p className='py-2 md:py-4'>
-        <EmphasizedWord word='Backend' /> Node, MongoDB, Express, Firebase
+        <EmphasizedWord word='Backend ' />
+        {user.about.backend.toString().replaceAll(',', ', ')}
       </p>
       <p className='py-2 md:py-4'>
-        <EmphasizedWord word='Other Technologies' /> Redux, Jest, Webpack, NPM,
-        Git, Github, Railway, Render, PassportJS, JSON Web Token
+        <EmphasizedWord word='Other Technologies ' />
+        {user.about.otherTechnologies.toString().replaceAll(',', ', ')}
       </p>
     </div>
   );

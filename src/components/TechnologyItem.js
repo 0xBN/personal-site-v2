@@ -15,7 +15,7 @@ export const TechnologyItem = ({ item }) => {
 
   return (
     <li
-      className={`items-center rounded-md bg-gray-300 p-0.5 text-sm hover:bg-gray-100 dark:bg-gray-600 dark:hover:bg-gray-400`}
+      className={`items-center rounded-md bg-gray-300 p-0.5 text-sm hover:bg-gray-100 hover:saturate-150 dark:bg-gray-600 dark:hover:bg-gray-400`}
     >
       {
         <a href={techWebsites[item]} target='_blank' rel='noreferrer'>
